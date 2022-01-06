@@ -1,0 +1,33 @@
+;; Emacs-W3 HTTP cookies file
+;; Automatically generated file!!! DO NOT EDIT!!!
+
+(setq url-cookie-storage
+ '(("www.vice.com"
+  [url-cookie "X-Vice-Split-Testing" "(null)" "Sun, 23 Jan 2022 20:51:50 GMT" "/" "www.vice.com" nil])
+ ("www.wired.com"
+  [url-cookie "verso_bucket" "253" "Sat, 24 Dec 2022 20:51:50 GMT" "/" "www.wired.com" nil]))
+)
+(setq url-cookie-secure-storage
+ '((".dispatch.com"
+  [url-cookie "gnt_eid" "control:9:out-market" "Thu Jan 13 19:32:51 2022 GMT" "/" ".dispatch.com" t])
+ ("wired.com"
+  [url-cookie "CN_xid_refresh" "0795101e-b268-4acc-8d5d-94645545141d" "Thu, 23 Jan 2031 07:20:23 GMT" "/" "wired.com" t]
+  [url-cookie "CN_geo_country_code" "US" "Thu, 26 May 2022 05:03:45 GMT" "/" "wired.com" t])
+ (".wired.com"
+  [url-cookie "CN_xid" "0795101e-b268-4acc-8d5d-94645545141d" "Wed, 22 Jun 2022 20:51:50 GMT" "/" ".wired.com" t]
+  [url-cookie "CN_xid_refresh" "0795101e-b268-4acc-8d5d-94645545141d" "Mon, 22 Dec 2031 20:51:50 GMT" "/" ".wired.com" t])
+ ("reddit.com"
+  [url-cookie "loid" "0000000000dbqftot3.2.1626378851333.Z0FBQUFBQmc4SkpqV29KWEU3RjVTZDJPdjU3Z2xpMW94cTJyWDljVDhjZ1B4SjduVnpzMHdpZ3hwXy1wSUJnNTlzN01PX01QM1E0TmFyVU14Ylp6MERPSElfTTBjTUpMU1BUdnp3V0RlYXF1dlVKeU1zVXNDYWhPMVh4bF9sZTRLczlGVDJCNjEtVGM" "Sat Jul 15 19:54:10 2023 GMT" "/" "reddit.com" t]
+  [url-cookie "edgebucket" "jz7pznD92hCFi5TvyA" "Sat Jul 15 19:54:10 2023 GMT" "/" "reddit.com" t])
+ (".reddit.com"
+  [url-cookie "csv" "1" "Sat Jul 15 19:54:11 2023 GMT" "/" ".reddit.com" t])
+ ("www.zidisha.org"
+  [url-cookie "zidishaCookie" "eyJpdiI6IndqQzJlN0dYMCtBZnJVbFpmN3dIOXc9PSIsInZhbHVlIjoiYWVHaE4wOFVWS01Qd09qN0dUSDNVU3p2M3pyOEVwRmZ3amhSY2QxVHFjeG1uOHkyUTZTT1V5elovUFZMakdIaCIsIm1hYyI6IjEwZDIzMWIyMWU2YjlkMWM2NzEwYjNkODg1N2E5MTU2ZWY5ZTk1NzExYjMyYzdmOThmMDVkNTUwYzY3YWNlZGYifQ%3D%3D" "Tue Jul 14 20:39:43 2026 GMT" "/" "www.zidisha.org" t])
+ ("www.wired.com"
+  [url-cookie "CN_xid_refresh" "0795101e-b268-4acc-8d5d-94645545141d" "Fri, 13 Dec 2030 06:23:15 GMT" "/" "www.wired.com" t]))
+)
+
+;; Local Variables:
+;; version-control: never
+;; no-byte-compile: t
+;; End:

@@ -1,0 +1,16 @@
+;;;; Emacs Bookmark Format Version 1 ;;;; -*- coding: utf-8-emacs -*- 
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+(("learninggnuemacs_3rdedition.epub"
+ (filename . "/home/jwp/Documents/eBooks/learninggnuemacs_3rdedition.epub")
+ (index . 48)
+ (position . 8663)
+ (handler . nov-bookmark-jump-handler)
+ (annotation . "Command  Action   \nEnter, f, or j  Go to the bookmark on the current line.  \nC-o or o  Open the bookmark on the current line in another window; o moves the  \n cursor to that window; C-o keeps the cursor in the current window.  \nd, C-d, or k  Flag bookmark for deletion.  \nr  Rename bookmark.  \ns  Save all bookmarks listed.  \nm  Mark bookmarks to be displayed in multiple windows.  \nv  Display marked bookmarks or the one the cursor is on if none are  \n marked.  \nt  Toggle display of paths to files associated with bookmarks.  \nw  In the minibuffer, display location of file associated with bookmark.  \nx  Delete bookmarks flagged for deletion.  \nu  Remove mark from bookmark.  \nDel  Remove mark from bookmark on previous line or move to the previous  \n line (if there is no mark).  \nq  Exit bookmark list.  \nSpace or n  Move down a line.  \np  Move up a line.  \nl  Load a bookmark file (other than the default).  \nA  Display all annotations.  \na  Display annotation for current bookmark.  \ne  Edit (or create) annotation for the current bookmark.  \n\n"))
+("notes.org"
+ (filename . "~/Documents/notes.org")
+ (front-context-string)
+ (rear-context-string . "ll extensions\n  ")
+ (position . 362))
+)

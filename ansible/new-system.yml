@@ -1,0 +1,49 @@
+- host: localhost
+  tasks:
+    - name: Install Slack
+      become: yes
+      package:
+        name: slack
+	state: present
+    - name: Install Syncthing
+      become: yes
+      package:
+        name: syncthing
+	state: present
+    - name: Install Bitwarden
+      become: yes
+      package:
+        name: bitwarden
+	state: present
+    - name: Install Emacs
+      become: yes
+      package:
+        name: emacs
+	state: present
+    - name: Install Discord
+      become: yes
+      package:
+        name: discord
+	state: present
+    - name: Install Biscuit
+      become: yes
+      package:
+        name: biscuit
+	state: present
+    - name: Install Joplin
+      become: yes
+      package:
+        name: joplin
+	state: present
+    - name: Install Element
+      become: yes
+      package:
+        name: element
+	state: present
+    - name: Install Anki
+      become: yes
+      package:
+        name: anki
+	state present
+
+

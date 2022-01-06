@@ -1,0 +1,321 @@
+;; -*- coding: utf-8 -*-
+(("LWN.net" "LWN.net is a comprehensive source of news and opinions from
+and about the Linux community.  This is the main LWN.net feed,
+listing all articles which are posted to the site front page." "https://lwn.net" (25046 24625 626005 178000) feed 0 nil nil ((title nil "LWN.net") (link nil "https://lwn.net") (description nil "
+ LWN.net is a comprehensive source of news and opinions from
+        and about the Linux community.  This is the main LWN.net feed,
+        listing all articles which are posted to the site front page.
+
+    ") (updatePeriod nil "hourly") (updateFrequency nil "2") (items nil (Seq nil (li ((resource . "https://lwn.net/Articles/861978/rss"))) (li ((resource . "https://lwn.net/Articles/862299/rss"))) (li ((resource . "https://lwn.net/Articles/862073/rss"))) (li ((resource . "https://lwn.net/Articles/862163/rss"))) (li ((resource . "https://lwn.net/Articles/861535/rss"))) (li ((resource . "https://lwn.net/Articles/862018/rss"))) (li ((resource . "https://lwn.net/Articles/862045/rss"))) (li ((resource . "https://lwn.net/Articles/862044/rss"))) (li ((resource . "https://lwn.net/Articles/861910/rss"))) (li ((resource . "https://lwn.net/Articles/861975/rss"))) (li ((resource . "https://lwn.net/Articles/861972/rss"))) (li ((resource . "https://lwn.net/Articles/861431/rss"))) (li ((resource . "https://lwn.net/Articles/861906/rss"))) (li ((resource . "https://lwn.net/Articles/861844/rss"))) (li ((resource . "https://lwn.net/Articles/861248/rss"))))))) ("Jami \"Taranis\" released" "The <a href=\"https://jami.net/\">Jami</a> communication tool has released a major new stable version called \"Taranis\"; the <a href=\"https://jami.net/taranis-a-major-release-of-jami/\">blog post announcement</a> explains: \"<span>Taranis, the Gallic and Celtic god of the sky, lightning and thunder, will be the baptismal name of this new version of Jami.</span>\"  The mailing-list announcement describes the tool this way:
+<blockquote class=\"bq\">
+Jami is a GNU package for universal communication that respects the
+freedom and privacy of its users.  Jami is an end-to-end encrypted
+secure and distributed voice, video, and chat communication platform
+that requires no central server, and leaves the power of privacy and
+freedom in the hands of users.
+</blockquote>
+<p>
+Another recent <a href=\"https://jami.net/the-jami-conferencing-system/\">blog post</a> gives an overview of Jami for video conferences. The new release has improvements throughout the system, including the first phase of <a href=\"https://jami.net/swarm-introducing-a-new-generation-of-group-conversations/\">Swarm</a> support, which are \"<span>fully distributed, peer-to-peer chats with conversation
+histories synchronized across your devices, and the potential to
+be expanded into group chats in upcoming future releases of Jami</span>\"." "https://lwn.net/Articles/879792/rss" (25029 59036) obsolete 1 nil nil ((guid nil nil) (title nil "Jami \"Taranis\" released") (link nil "https://lwn.net/Articles/879792/rss") (date nil "2021-12-24T15:26:20+00:00") (creator nil "jake") (description nil "
+      The <a href=\"https://jami.net/\">Jami</a> communication tool has released a major new stable version called \"Taranis\"; the <a href=\"https://jami.net/taranis-a-major-release-of-jami/\">blog post announcement</a> explains: \"<span>Taranis, the Gallic and Celtic god of the sky, lightning and thunder, will be the baptismal name of this new version of Jami.</span>\"  The mailing-list announcement describes the tool this way:
+<blockquote class=\"bq\">
+Jami is a GNU package for universal communication that respects the
+freedom and privacy of its users.  Jami is an end-to-end encrypted
+secure and distributed voice, video, and chat communication platform
+that requires no central server, and leaves the power of privacy and
+freedom in the hands of users.
+</blockquote>
+<p>
+Another recent <a href=\"https://jami.net/the-jami-conferencing-system/\">blog post</a> gives an overview of Jami for video conferences. The new release has improvements throughout the system, including the first phase of <a href=\"https://jami.net/swarm-introducing-a-new-generation-of-group-conversations/\">Swarm</a> support, which are \"<span>fully distributed, peer-to-peer chats with conversation
+    histories synchronized across your devices, and the potential to
+    be expanded into group chats in upcoming future releases of Jami</span>\". 
+
+      
+      "))) ("Security updates for Friday" "Security updates have been issued by <b>Debian</b> (webkit2gtk and wpewebkit), <b>Fedora</b> (httpd and singularity), <b>Mageia</b> (ldns, netcdf, php, ruby, thrift/golang-github-apache-thrift, thunderbird, and webkit2), <b>openSUSE</b> (go1.16, go1.17, libaom, and p11-kit), and <b>SUSE</b> (go1.16, go1.17, htmldoc, libaom, libvpx, logstash, openssh-openssl1, python3, and runc)." "https://lwn.net/Articles/879791/rss" (25029 57717) obsolete 2 nil nil ((guid nil nil) (title nil "Security updates for Friday") (link nil "https://lwn.net/Articles/879791/rss") (date nil "2021-12-24T15:04:21+00:00") (creator nil "jake") (description nil "
+      Security updates have been issued by <b>Debian</b> (webkit2gtk and wpewebkit), <b>Fedora</b> (httpd and singularity), <b>Mageia</b> (ldns, netcdf, php, ruby, thrift/golang-github-apache-thrift, thunderbird, and webkit2), <b>openSUSE</b> (go1.16, go1.17, libaom, and p11-kit), and <b>SUSE</b> (go1.16, go1.17, htmldoc, libaom, libvpx, logstash, openssh-openssl1, python3, and runc).
+
+      
+      "))) ("Darktable 3.8.0 released" "<a
+href=\"https://www.darktable.org/2021/12/darktable-3.8.0-released/\">Version
+3.8.0</a> of the Darktable photo-processing application has been released.
+Significant changes include a new keyboard shortcut system, a new
+diffuse-or-sharpen module, a new \"scene-referred\" blurs module \"<span>to
+synthesize motion and lens blurs in a parametric and physically accurate
+way</span>\", support for the Canon CR3 raw format, and more." "https://lwn.net/Articles/879765/rss" (25029 57668) obsolete 3 nil nil ((guid nil nil) (title nil "Darktable 3.8.0 released") (link nil "https://lwn.net/Articles/879765/rss") (date nil "2021-12-24T15:03:32+00:00") (creator nil "corbet") (description nil "
+      <a
+href=\"https://www.darktable.org/2021/12/darktable-3.8.0-released/\">Version
+3.8.0</a> of the Darktable photo-processing application has been released.
+Significant changes include a new keyboard shortcut system, a new
+diffuse-or-sharpen module, a new \"scene-referred\" blurs module \"<span>to
+synthesize motion and lens blurs in a parametric and physically accurate
+way</span>\", support for the Canon CR3 raw format, and more.
+      
+      "))) ("[$] LWN.net Weekly Edition for January 6, 2022" "The LWN.net Weekly Edition for January 6, 2022 is available." "https://lwn.net/Articles/879697/rss" (25046 17075) new 1 nil nil ((guid nil nil) (title nil "[$] LWN.net Weekly Edition for January 6, 2022") (link nil "https://lwn.net/Articles/879697/rss") (date nil "2022-01-06T01:15:31+00:00") (creator nil "corbet") (description nil "
+      The LWN.net Weekly Edition for January 6, 2022 is available.
+
+      
+      "))) ("[$] Restricting SSH agent keys" "The <a href=\"http://www.openssh.com/\">OpenSSH</a> suite of tools for
+secure remote logins is used widely within our communities; it also
+underlies things like remote Git repository access.
+A recent experimental feature for the upcoming OpenSSH&nbsp;8.9 release
+will help close a security hole
+that can be exploited by attacker-controlled SSH servers (e.g. <a
+href=\"https://man.openbsd.org/sshd.8\"><tt>sshd</tt></a>) when the user is forwarding
+authentication to a local <a
+href=\"https://man.openbsd.org/ssh-agent.1\"><tt>ssh-agent</tt></a>.  Instead
+of allowing the keys held in the agent to be used for authenticating to any
+host where they might work, <a
+href=\"https://www.openssh.com/agent-restrict.html\">SSH agent
+restriction</a> will allow users to specify where and how those keys can be
+used." "https://lwn.net/Articles/880458/rss" (25046 5460) new 2 nil nil ((guid nil nil) (title nil "[$] Restricting SSH agent keys") (link nil "https://lwn.net/Articles/880458/rss") (date nil "2022-01-05T22:01:56+00:00") (creator nil "jake") (description nil "
+      The <a href=\"http://www.openssh.com/\">OpenSSH</a> suite of tools for
+secure remote logins is used widely within our communities; it also
+underlies things like remote Git repository access.
+A recent experimental feature for the upcoming OpenSSH&nbsp;8.9 release
+will help close a security hole 
+that can be exploited by attacker-controlled SSH servers (e.g. <a
+href=\"https://man.openbsd.org/sshd.8\"><tt>sshd</tt></a>) when the user is forwarding
+authentication to a local <a
+href=\"https://man.openbsd.org/ssh-agent.1\"><tt>ssh-agent</tt></a>.  Instead
+of allowing the keys held in the agent to be used for authenticating to any
+host where they might work, <a
+href=\"https://www.openssh.com/agent-restrict.html\">SSH agent 
+restriction</a> will allow users to specify where and how those keys can be
+used.
+
+      
+      "))) ("The latest set of stable kernel updates" "The
+<a href=\"https://lwn.net/Articles/880469/\">5.15.13</a>,
+<a href=\"https://lwn.net/Articles/880468/\">5.10.90</a>,
+<a href=\"https://lwn.net/Articles/880467/\">5.4.170</a>,
+<a href=\"https://lwn.net/Articles/880466/\">4.19.224</a>,
+<a href=\"https://lwn.net/Articles/880465/\">4.14.261</a>,
+<a href=\"https://lwn.net/Articles/880464/\">4.9.296</a>, and
+<a href=\"https://lwn.net/Articles/880463/\">4.4.298</a>
+stable kernel updates have all been released.  These medium-size updates
+all contain another set of important fixes." "https://lwn.net/Articles/880462/rss" (25045 48673) new 3 nil nil ((guid nil nil) (title nil "The latest set of stable kernel updates") (link nil "https://lwn.net/Articles/880462/rss") (date nil "2022-01-05T15:49:53+00:00") (creator nil "corbet") (description nil "
+      The
+<a href=\"https://lwn.net/Articles/880469/\">5.15.13</a>,
+<a href=\"https://lwn.net/Articles/880468/\">5.10.90</a>,
+<a href=\"https://lwn.net/Articles/880467/\">5.4.170</a>,
+<a href=\"https://lwn.net/Articles/880466/\">4.19.224</a>,
+<a href=\"https://lwn.net/Articles/880465/\">4.14.261</a>,
+<a href=\"https://lwn.net/Articles/880464/\">4.9.296</a>, and
+<a href=\"https://lwn.net/Articles/880463/\">4.4.298</a>
+stable kernel updates have all been released.  These medium-size updates
+all contain another set of important fixes.
+      
+      "))) ("Security updates for Wednesday" "Security updates have been issued by <b>CentOS</b> (xorg-x11-server), <b>Debian</b> (apache2), <b>openSUSE</b> (libvirt), <b>Oracle</b> (grafana, qemu, and xorg-x11-server), <b>Red Hat</b> (idm:DL1, samba, and telnet), <b>SUSE</b> (libvirt), and <b>Ubuntu</b> (python-django)." "https://lwn.net/Articles/880454/rss" (25045 45977) new 4 nil nil ((guid nil nil) (title nil "Security updates for Wednesday") (link nil "https://lwn.net/Articles/880454/rss") (date nil "2022-01-05T15:04:57+00:00") (creator nil "corbet") (description nil "
+      Security updates have been issued by <b>CentOS</b> (xorg-x11-server), <b>Debian</b> (apache2), <b>openSUSE</b> (libvirt), <b>Oracle</b> (grafana, qemu, and xorg-x11-server), <b>Red Hat</b> (idm:DL1, samba, and telnet), <b>SUSE</b> (libvirt), and <b>Ubuntu</b> (python-django).
+
+      
+      "))) ("[$] Another Fedora integrity-management proposal" "File-integrity management for the Fedora distribution
+has been the overarching theme of a number of different feature proposals
+over the last year or so.  In general, they have been met with skepticism,
+particularly with regard to how well the features mesh with Fedora's
+goals, but also in how they will change the process of building RPM
+packages.  A new proposal that would allow systems to (optionally) perform <a
+href=\"https://en.wikipedia.org/wiki/Trusted_Computing#Remote_attestation\">remote
+attestation</a> is likewise encountering headwinds; there are several
+different concerns being raised in the discussion of it." "https://lwn.net/Articles/880263/rss" (25044 56489) new 5 nil nil ((guid nil nil) (title nil "[$] Another Fedora integrity-management proposal") (link nil "https://lwn.net/Articles/880263/rss") (date nil "2022-01-04T23:47:53+00:00") (creator nil "jake") (description nil "
+      File-integrity management for the Fedora distribution
+has been the overarching theme of a number of different feature proposals
+over the last year or so.  In general, they have been met with skepticism,
+particularly with regard to how well the features mesh with Fedora's
+goals, but also in how they will change the process of building RPM
+packages.  A new proposal that would allow systems to (optionally) perform <a 
+href=\"https://en.wikipedia.org/wiki/Trusted_Computing#Remote_attestation\">remote
+attestation</a> is likewise encountering headwinds; there are several
+different concerns being raised in the discussion of it.
+
+      
+      "))) ("Gentoo Linux 2021 retrospective" "The Gentoo Linux project <a
+href=\"https://www.gentoo.org/news/2022/01/03/new-year.html\">looks back at
+2021</a>.
+<p>
+<blockquote class=\"bq\">
+The number of commits to the main ::gentoo repository has once more
+clearly grown in 2021, from 104507 to 126920, i.e., by 21%. While
+the number of commits by external contributors, 11775, has remained
+roughly constant, this number now distributes across 435 unique
+external authors compared to 391 last year.
+</blockquote>" "https://lwn.net/Articles/880334/rss" (25044 25990) new 6 nil nil ((guid nil nil) (title nil "Gentoo Linux 2021 retrospective") (link nil "https://lwn.net/Articles/880334/rss") (date nil "2022-01-04T15:19:34+00:00") (creator nil "corbet") (description nil "
+      The Gentoo Linux project <a
+href=\"https://www.gentoo.org/news/2022/01/03/new-year.html\">looks back at
+2021</a>.
+<p>
+<blockquote class=\"bq\">
+
+	The number of commits to the main ::gentoo repository has once more
+	clearly grown in 2021, from 104507 to 126920, i.e., by 21%. While
+	the number of commits by external contributors, 11775, has remained
+	roughly constant, this number now distributes across 435 unique
+	external authors compared to 391 last year.
+</blockquote>
+      
+      "))) ("NumPy 1.22.0 has been released" "Version 1.22.0 of the NumPy scientific computing module is out.
+\"<span>NumPy 1.22.0 is a big release featuring the work of 153
+contributors spread over 609 pull requests. There have been many
+improvements</span>\".  Those improvements include the \"<span>essentially
+complete</span>\" annotation of the main namespace, a preliminary version of
+the proposed Array API, and more." "https://lwn.net/Articles/880332/rss" (25044 23477) new 7 nil nil ((guid nil nil) (title nil "NumPy 1.22.0 has been released") (link nil "https://lwn.net/Articles/880332/rss") (date nil "2022-01-04T14:37:41+00:00") (creator nil "corbet") (description nil "
+      Version 1.22.0 of the NumPy scientific computing module is out.
+\"<span>NumPy 1.22.0 is a big release featuring the work of 153
+contributors spread over 609 pull requests. There have been many
+improvements</span>\".  Those improvements include the \"<span>essentially
+complete</span>\" annotation of the main namespace, a preliminary version of
+the proposed Array API, and more.
+
+      
+      "))) ("Security updates for Tuesday" "Security updates have been issued by <b>Debian</b> (salt and thunderbird), <b>Red Hat</b> (xorg-x11-server), and <b>Scientific Linux</b> (xorg-x11-server)." "https://lwn.net/Articles/880327/rss" (25044 23080) new 8 nil nil ((guid nil nil) (title nil "Security updates for Tuesday") (link nil "https://lwn.net/Articles/880327/rss") (date nil "2022-01-04T14:31:04+00:00") (creator nil "corbet") (description nil "
+      Security updates have been issued by <b>Debian</b> (salt and thunderbird), <b>Red Hat</b> (xorg-x11-server), and <b>Scientific Linux</b> (xorg-x11-server).
+
+      
+      "))) ("[$] LWN's unreliable predictions for 2022" "It is 2022 already, and that can only mean one thing: it's time for your
+editor to make a (bigger) fool of himself by posting a set of
+predictions for what may come in the new year.  One should never pass up an
+opportunity for a humbling experience, after all.  There can be no doubt
+that interesting things will happen this year; let's see how many random
+darts thrown in that direction can hit close to the mark." "https://lwn.net/Articles/878573/rss" (25043 35021) new 9 nil nil ((guid nil nil) (title nil "[$] LWN's unreliable predictions for 2022") (link nil "https://lwn.net/Articles/878573/rss") (date nil "2022-01-03T23:37:49+00:00") (creator nil "corbet") (description nil "
+      It is 2022 already, and that can only mean one thing: it's time for your
+editor to make a (bigger) fool of himself by posting a set of
+predictions for what may come in the new year.  One should never pass up an
+opportunity for a humbling experience, after all.  There can be no doubt
+that interesting things will happen this year; let's see how many random
+darts thrown in that direction can hit close to the mark.
+
+      
+      "))) ("Koch: A New Future for GnuPG" "Longtime GnuPG maintainer Werner Koch has posted an update on the project,
+mostly focused on the new associated \"GnuPG VS-Desktop\" business that is,
+it seems, going quite well:
+<p>
+<blockquote class=\"bq\">
+For many years our work was mainly financed by donations and smaller
+projects.  Now we have reached a point where we can benefit from a
+continuous revenue stream to maintain and extend the software without
+asking for donations or grants.  This is quite a new experience to us
+and I am actually a bit proud to lead one of the few self-sustaining
+free software projects who had not to sacrifice the goals of the
+movement.
+</blockquote>
+<p>
+He concludes with a request for individuals who have been donating to GnuPG
+to redirect their generosity toward another deserving project.  This is
+good news; GnuPG ran on a shoestring for far too long." "https://lwn.net/Articles/880248/rss" (25043 9936) new 10 nil nil ((guid nil nil) (title nil "Koch: A New Future for GnuPG") (link nil "https://lwn.net/Articles/880248/rss") (date nil "2022-01-03T16:39:44+00:00") (creator nil "corbet") (description nil "
+      Longtime GnuPG maintainer Werner Koch has posted an update on the project,
+mostly focused on the new associated \"GnuPG VS-Desktop\" business that is,
+it seems, going quite well:
+<p>
+<blockquote class=\"bq\">
+  For many years our work was mainly financed by donations and smaller
+  projects.  Now we have reached a point where we can benefit from a
+  continuous revenue stream to maintain and extend the software without
+  asking for donations or grants.  This is quite a new experience to us
+  and I am actually a bit proud to lead one of the few self-sustaining
+  free software projects who had not to sacrifice the goals of the
+  movement.
+</blockquote>
+<p>
+He concludes with a request for individuals who have been donating to GnuPG
+to redirect their generosity toward another deserving project.  This is
+good news; GnuPG ran on a shoestring for far too long.
+
+      
+      "))) ("GIMP 2021 annual report" "The GIMP project has put out <a
+href=\"https://www.gimp.org/news/2021/12/31/gimp-2021-annual-report/\">a
+report</a> summarizing a year of development on this image-manipulation
+application.
+<p>
+<blockquote class=\"bq\">
+With 4 development versions released already, you know that we are
+working very hard on the future: GIMP 3.0.
+<p>
+Some features took a lot of time, mostly when we changed core
+logics. I am thinking in particular about the code for
+multi-selection of layers. It’s not that selecting multiple items
+in a list is hard to implement, it’s that any feature in the whole
+application has been forever expecting just one layer or one
+channel selected. So what happens when there are 2, 3 or any number
+of items selected? Every feature, every tool, every plug-in and
+filter has to be rethought for this new use case.
+</blockquote>" "https://lwn.net/Articles/880241/rss" (25043 5784) new 11 nil nil ((guid nil nil) (title nil "GIMP 2021 annual report") (link nil "https://lwn.net/Articles/880241/rss") (date nil "2022-01-03T15:30:32+00:00") (creator nil "corbet") (description nil "
+      The GIMP project has put out <a
+href=\"https://www.gimp.org/news/2021/12/31/gimp-2021-annual-report/\">a
+report</a> summarizing a year of development on this image-manipulation
+application.
+<p>
+<blockquote class=\"bq\">
+	With 4 development versions released already, you know that we are
+	working very hard on the future: GIMP 3.0.
+<p>
+	Some features took a lot of time, mostly when we changed core
+	logics. I am thinking in particular about the code for
+	multi-selection of layers. It’s not that selecting multiple items
+	in a list is hard to implement, it’s that any feature in the whole
+	application has been forever expecting just one layer or one
+	channel selected. So what happens when there are 2, 3 or any number
+	of items selected? Every feature, every tool, every plug-in and
+	filter has to be rethought for this new use case.
+</blockquote>
+      
+      "))) ("Security updates for Monday" "Security updates have been issued by <b>Debian</b> (thunderbird), <b>Fedora</b> (kernel, libopenmpt, and xorg-x11-server), <b>Mageia</b> (gegl, libgda5.0, log4j, ntfs-3g, and wireshark), <b>openSUSE</b> (log4j), and <b>Red Hat</b> (grafana)." "https://lwn.net/Articles/880232/rss" (25043 89) new 12 nil nil ((guid nil nil) (title nil "Security updates for Monday") (link nil "https://lwn.net/Articles/880232/rss") (date nil "2022-01-03T13:55:37+00:00") (creator nil "jake") (description nil "
+      Security updates have been issued by <b>Debian</b> (thunderbird), <b>Fedora</b> (kernel, libopenmpt, and xorg-x11-server), <b>Mageia</b> (gegl, libgda5.0, log4j, ntfs-3g, and wireshark), <b>openSUSE</b> (log4j), and <b>Red Hat</b> (grafana).
+
+      
+      "))) ("The fast kernel headers tree" "Kernel developer Ingo Molnar has been quiet for a while; now we know why.
+He has just <a
+href=\"https://lwn.net/ml/linux-kernel/YdIfz+LMewetSaEB@gmail.com/\">announced</a> a massive
+set of patches (touching over half of the files in the kernel tree)
+reworking how header files are handled.
+<p>
+<blockquote class=\"bq\">
+The fast-headers tree offers a +50-80% improvement in absolute
+kernel build performance on supported architectures, depending on
+the config. This is a major step forward in terms of Linux kernel
+build efficiency &amp; performance.
+<p>
+A justified question would be: why on Earth 2,200 commits??
+</blockquote>
+<p>
+It seems likely that interesting conversations will follow; stay tuned." "https://lwn.net/Articles/880175/rss" (25042 12035) new 13 nil nil ((guid nil nil) (title nil "The fast kernel headers tree") (link nil "https://lwn.net/Articles/880175/rss") (date nil "2022-01-02T23:02:27+00:00") (creator nil "corbet") (description nil "
+      Kernel developer Ingo Molnar has been quiet for a while; now we know why.
+He has just <a
+href=\"https://lwn.net/ml/linux-kernel/YdIfz+LMewetSaEB@gmail.com/\">announced</a> a massive
+set of patches (touching over half of the files in the kernel tree)
+reworking how header files are handled.
+<p>
+<blockquote class=\"bq\">
+	The fast-headers tree offers a +50-80% improvement in absolute
+	kernel build performance on supported architectures, depending on
+	the config. This is a major step forward in terms of Linux kernel
+	build efficiency &amp; performance.
+<p>
+	A justified question would be: why on Earth 2,200 commits??
+</blockquote>
+<p>
+It seems likely that interesting conversations will follow; stay tuned.
+      
+      "))) ("Kernel prepatch 5.16-rc8" "The <a href=\"https://lwn.net/Articles/880173/\">eighth and final 5.16 kernel prepatch</a>
+is out for testing.  \"<span>Please, as you emerge from your holiday-induced
+food coma, do give it a quick test so that we can all be happy about the
+final release next weekend</span>\"." "https://lwn.net/Articles/880174/rss" (25042 11727) new 14 nil nil ((guid nil nil) (title nil "Kernel prepatch 5.16-rc8") (link nil "https://lwn.net/Articles/880174/rss") (date nil "2022-01-02T22:57:19+00:00") (creator nil "corbet") (description nil "
+      The <a href=\"https://lwn.net/Articles/880173/\">eighth and final 5.16 kernel prepatch</a>
+is out for testing.  \"<span>Please, as you emerge from your holiday-induced
+food coma, do give it a quick test so that we can all be happy about the
+final release next weekend</span>\".
+      
+      "))) ("GNOME libadwaita 1.0 released" "<a href=\"https://blogs.gnome.org/alexm/2021/12/31/libadwaita-1-0/\">Version
+1.0</a> of the GNOME libadwaita library is out; this will be of interest to
+GNOME application developers.  \"<span>Libadwaita is a library implementing
+the GNOME HIG, complementing GTK. For GTK 3 this role has increasingly been
+played by Libhandy, and so Libadwaita is a direct Libhandy
+successor.</span>\"" "https://lwn.net/Articles/880110/rss" (25039 20234) new 15 nil nil ((guid nil nil) (title nil "GNOME libadwaita 1.0 released") (link nil "https://lwn.net/Articles/880110/rss") (date nil "2021-12-31T18:42:18+00:00") (creator nil "corbet") (description nil "
+      <a href=\"https://blogs.gnome.org/alexm/2021/12/31/libadwaita-1-0/\">Version
+1.0</a> of the GNOME libadwaita library is out; this will be of interest to
+GNOME application developers.  \"<span>Libadwaita is a library implementing
+the GNOME HIG, complementing GTK. For GTK 3 this role has increasingly been
+played by Libhandy, and so Libadwaita is a direct Libhandy
+successor.</span>\"
+      
+      "))))
