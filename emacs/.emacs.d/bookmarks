@@ -1,8 +1,13 @@
-;;;; Emacs Bookmark Format Version 1 ;;;; -*- coding: utf-8-emacs -*- 
+;;;; Emacs Bookmark Format Version 1 ;;;; -*- coding: utf-8-emacs -*-
 ;;; This format is meant to be slightly human-readable;
 ;;; nevertheless, you probably don't want to edit it.
 ;;; -*- End Of Bookmark File Format Version Stamp -*-
-(("learninggnuemacs_3rdedition.epub"
+(("org-capture-last-stored"
+ (filename . "~/Documents/org/agenda/2023/wAgenda.org")
+ (front-context-string . "***** TODO Work ")
+ (rear-context-string . "23-02-10 Friday\n")
+ (position . 1273))
+("learninggnuemacs_3rdedition.epub"
  (filename . "/home/jwp/Documents/eBooks/learninggnuemacs_3rdedition.epub")
  (index . 48)
  (position . 8663)

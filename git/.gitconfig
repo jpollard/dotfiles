@@ -5,3 +5,5 @@
 	email = joseph.w.pollard@gmail.com
 [core]
 	autocrlf = input
+[credential]
+	credentialStore = secretservice

@@ -1,49 +1,51 @@
-- host: localhost
+- hosts: localhost
   tasks:
-    - name: Install Slack
-      become: yes
-      package:
-        name: slack
-	state: present
     - name: Install Syncthing
       become: yes
       package:
         name: syncthing
-	state: present
-    - name: Install Bitwarden
+        state: present
+    - name: Install Flatpak
       become: yes
       package:
-        name: bitwarden
-	state: present
+        name: flatpak
+        state: present
+    - name: Install Flathub
+      become: yes
+      command: flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
+    - name: Install Snap
+      become: yes
+      package:
+        name: snapd
+        state: present
+    - name: Install Snap Core
+      become: yes
+      command: snap install core
+    - name: Install Bitwarden
+      become: yes
+      command: flatpak install --assumeyes bitwarden
     - name: Install Emacs
       become: yes
       package:
         name: emacs
-	state: present
+        state: present
     - name: Install Discord
       become: yes
-      package:
-        name: discord
-	state: present
-    - name: Install Biscuit
-      become: yes
-      package:
-        name: biscuit
-	state: present
+      command: flatpak install --assumeyes discord
     - name: Install Joplin
       become: yes
-      package:
-        name: joplin
-	state: present
+      command: flatpak install --assumeyes joplin
     - name: Install Element
       become: yes
-      package:
-        name: element
-	state: present
+      command: flatpak install --assumeyes im.riot.Riot
     - name: Install Anki
       become: yes
       package:
         name: anki
-	state present
-
+        state: present
+    - name: Install zsh
+      become: yes
+      package:
+        name: zsh
+	state: present
 

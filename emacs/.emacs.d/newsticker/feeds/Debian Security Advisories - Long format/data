@@ -1,136 +1,186 @@
 ;; -*- coding: utf-8 -*-
-(("Debian Security" "Debian Security Advisories" "http://security.debian.org/" (25046 24625 708933 214000) feed 0 nil nil ((title nil "Debian Security") (link nil "http://security.debian.org/") (description nil "
+(("[COULD NOT DOWNLOAD HEADLINES!]" "Tuesday, 18:20: Newsticker could not retrieve news from Debian Security Advisories - Long format.
+Return status: ‘nil’
+Command was ‘url-retrieve’" "" (25301 44821 700064 405000) nil 0 nil nil ((guid nil "newsticker--download-error"))) ("Debian Security" "Debian Security Advisories" "http://security.debian.org/" (25561 40506 39146 827000) feed 0 nil nil ((title nil "Debian Security") (link nil "http://security.debian.org/") (description nil "
 Debian Security Advisories
-  ") (date nil "2021-07-09T11:33:36+00:00") (items nil (Seq nil (li ((resource . "https://www.debian.org/security/2021/dsa-4937"))) (li ((resource . "https://www.debian.org/security/2021/dsa-4936"))) (li ((resource . "https://www.debian.org/security/2021/dsa-4935"))) (li ((resource . "https://www.debian.org/security/2021/dsa-4934"))) (li ((resource . "https://www.debian.org/security/2021/dsa-4933"))) (li ((resource . "https://www.debian.org/security/2021/dsa-4932"))) (li ((resource . "https://www.debian.org/security/2021/dsa-4931"))) (li ((resource . "https://www.debian.org/security/2021/dsa-4930"))) (li ((resource . "https://www.debian.org/security/2021/dsa-4929"))) (li ((resource . "https://www.debian.org/security/2021/dsa-4928"))))))) ("DSA-5020 apache-log4j2 - security update" "<p>Chen Zhaojun of Alibaba Cloud Security Team discovered a critical security
-vulnerability in Apache Log4j, a popular Logging Framework for Java. JNDI
-features used in configuration, log messages, and parameters do not protect
-against attacker controlled LDAP and other JNDI related endpoints. An attacker
-who can control log messages or log message parameters can execute arbitrary
-code loaded from LDAP servers when message lookup substitution is enabled. From
-version 2.15.0, this behavior has been disabled by default.</p>" "https://www.debian.org/security/2021/dsa-5020" (25011 59904) old 16 nil nil ((guid nil nil) (title nil "DSA-5020 apache-log4j2 - security update") (link nil "https://www.debian.org/security/2021/dsa-5020") (description nil "
-<p>Chen Zhaojun of Alibaba Cloud Security Team discovered a critical security
-vulnerability in Apache Log4j, a popular Logging Framework for Java. JNDI
-features used in configuration, log messages, and parameters do not protect
-against attacker controlled LDAP and other JNDI related endpoints. An attacker
-who can control log messages or log message parameters can execute arbitrary
-code loaded from LDAP servers when message lookup substitution is enabled. From
-version 2.15.0, this behavior has been disabled by default.</p>
-  ") (date nil "2021-12-11"))) ("DSA-5019 wireshark - security update" "<p>Multiple vulnerabilities have been discovered in Wireshark, a network
-protocol analyzer which could result in denial of service or the execution of
-arbitrary code.</p>" "https://www.debian.org/security/2021/dsa-5019" (25010 39040) old 17 nil nil ((guid nil nil) (title nil "DSA-5019 wireshark - security update") (link nil "https://www.debian.org/security/2021/dsa-5019") (description nil "
-<p>Multiple vulnerabilities have been discovered in Wireshark, a network
-protocol analyzer which could result in denial of service or the execution of
-arbitrary code.</p>
-  ") (date nil "2021-12-10"))) ("DSA-5018 python-babel - security update" "<p>It was discovered that missing input sanitising in Babel, a set of
-tools for internationalising Python applications, could result in
-the execution of arbitrary code.</p>" "https://www.debian.org/security/2021/dsa-5018" (25009 18176) old 18 nil nil ((guid nil nil) (title nil "DSA-5018 python-babel - security update") (link nil "https://www.debian.org/security/2021/dsa-5018") (description nil "
-<p>It was discovered that missing input sanitising in Babel, a set of
-tools for internationalising Python applications, could result in
-the execution of arbitrary code.</p>
-  ") (date nil "2021-12-09"))) ("DSA-5021 mediawiki - security update" "<p>Multiple security issues were discovered in MediaWiki, a website engine
-for collaborative work: Vulnerabilities in the mcrundo and rollback
-actions may allow an attacker to leak page content from private wikis
-or to bypass edit restrictions.</p>" "https://www.debian.org/security/2021/dsa-5021" (25017 12288) old 15 nil nil ((guid nil nil) (title nil "DSA-5021 mediawiki - security update") (link nil "https://www.debian.org/security/2021/dsa-5021") (description nil "
-<p>Multiple security issues were discovered in MediaWiki, a website engine
-for collaborative work: Vulnerabilities in the mcrundo and rollback
-actions may allow an attacker to leak page content from private wikis
-or to bypass edit restrictions.</p>
-  ") (date nil "2021-12-15"))) ("DSA-5026 firefox-esr - security update" "<p>Multiple security issues have been found in the Mozilla Firefox
-web browser, which could potentially result in the execution
-of arbitrary code, information disclosure or spoofing.</p>" "https://www.debian.org/security/2021/dsa-5026" (25022 30208) old 10 nil nil ((guid nil nil) (title nil "DSA-5026 firefox-esr - security update") (link nil "https://www.debian.org/security/2021/dsa-5026") (description nil "
-<p>Multiple security issues have been found in the Mozilla Firefox
-web browser, which could potentially result in the execution
-of arbitrary code, information disclosure or spoofing.</p>
-  ") (date nil "2021-12-19"))) ("DSA-5025 tang - security update" "<p>A flaw was discovered in tang, a network-based cryptographic binding
-server, which could result in leak of private keys.</p>" "https://www.debian.org/security/2021/dsa-5025" (25022 30208) old 11 nil nil ((guid nil nil) (title nil "DSA-5025 tang - security update") (link nil "https://www.debian.org/security/2021/dsa-5025") (description nil "
-<p>A flaw was discovered in tang, a network-based cryptographic binding
-server, which could result in leak of private keys.</p>
-  ") (date nil "2021-12-19"))) ("DSA-5024 apache-log4j2 - security update" "<p>It was found that Apache Log4j2, a Logging Framework for Java, did not protect
-from uncontrolled recursion from self-referential lookups. When the logging
-configuration uses a non-default Pattern Layout with a Context Lookup (for
-example, $${ctx:loginId}), attackers with control over Thread Context Map (MDC)
-input data can craft malicious input data that contains a recursive lookup,
-resulting in a denial of service.</p>" "https://www.debian.org/security/2021/dsa-5024" (25021 9344) old 12 nil nil ((guid nil nil) (title nil "DSA-5024 apache-log4j2 - security update") (link nil "https://www.debian.org/security/2021/dsa-5024") (description nil "
-<p>It was found that Apache Log4j2, a Logging Framework for Java, did not protect
-from uncontrolled recursion from self-referential lookups. When the logging
-configuration uses a non-default Pattern Layout with a Context Lookup (for
-example, $${ctx:loginId}), attackers with control over Thread Context Map (MDC)
-input data can craft malicious input data that contains a recursive lookup,
-resulting in a denial of service.</p>
-  ") (date nil "2021-12-18"))) ("DSA-5023 modsecurity-apache - security update" "<p>It was discovered that modsecurity-apache, an Apache module to tighten
-the Web application security, does not properly handles excessively
-nested JSON objects, which could result in denial of service. The update
-introduces a new <q>SecRequestBodyJsonDepthLimit</q> option to limit the
-maximum request body JSON parsing depth which ModSecurity will accept
-(defaults to 10000).</p>" "https://www.debian.org/security/2021/dsa-5023" (25021 9344) old 13 nil nil ((guid nil nil) (title nil "DSA-5023 modsecurity-apache - security update") (link nil "https://www.debian.org/security/2021/dsa-5023") (description nil "
-<p>It was discovered that modsecurity-apache, an Apache module to tighten
-the Web application security, does not properly handles excessively
-nested JSON objects, which could result in denial of service. The update
-introduces a new <q>SecRequestBodyJsonDepthLimit</q> option to limit the
-maximum request body JSON parsing depth which ModSecurity will accept
-(defaults to 10000).</p>
-  ") (date nil "2021-12-18"))) ("DSA-5022 apache-log4j2 - security update" "<p>It was found that the fix to address <a
-href=\"https://security-tracker.debian.org/tracker/CVE-2021-44228\">CVE-2021-44228</a> in Apache Log4j, a Logging Framework for Java, was
-incomplete in certain non-default configurations. This could allow
-attackers with control over Thread Context Map (MDC) input data when
-the logging configuration uses a non-default Pattern Layout with
-either a Context Lookup (for example, $${ctx:loginId}) or a Thread
-Context Map pattern (%X, %mdc, or %MDC) to craft malicious input data
-using a JNDI Lookup pattern resulting in a denial of service (DOS)
-attack.</p>" "https://www.debian.org/security/2021/dsa-5022" (25018 33152) old 14 nil nil ((guid nil nil) (title nil "DSA-5022 apache-log4j2 - security update") (link nil "https://www.debian.org/security/2021/dsa-5022") (description nil "
-<p>It was found that the fix to address <a
-href=\"https://security-tracker.debian.org/tracker/CVE-2021-44228\">CVE-2021-44228</a> in Apache Log4j, a Logging Framework for Java, was
-incomplete in certain non-default configurations. This could allow
-attackers with control over Thread Context Map (MDC) input data when
-the logging configuration uses a non-default Pattern Layout with
-either a Context Lookup (for example, $${ctx:loginId}) or a Thread
-Context Map pattern (%X, %mdc, or %MDC) to craft malicious input data
-using a JNDI Lookup pattern resulting in a denial of service (DOS)
-attack.</p>
-  ") (date nil "2021-12-16"))) ("DSA-5027 xorg-server - security update" "<p>Jan-Niklas Sohn discovered that multiple input validation failures in X
-server extensions of the X.org X server may result in privilege
-escalation if the X server is running privileged.</p>" "https://www.debian.org/security/2021/dsa-5027" (25025 6400) old 9 nil nil ((guid nil nil) (title nil "DSA-5027 xorg-server - security update") (link nil "https://www.debian.org/security/2021/dsa-5027") (description nil "
-<p>Jan-Niklas Sohn discovered that multiple input validation failures in X
-server extensions of the X.org X server may result in privilege
-escalation if the X server is running privileged.</p>
-  ") (date nil "2021-12-21"))) ("DSA-5029 sogo - security update" "<p>It was discovered that missing SAML signature validation in the SOGo
-groupware could result in impersonation attacks.</p>" "https://www.debian.org/security/2021/dsa-5029" (25026 27264) old 7 nil nil ((guid nil nil) (title nil "DSA-5029 sogo - security update") (link nil "https://www.debian.org/security/2021/dsa-5029") (description nil "
-<p>It was discovered that missing SAML signature validation in the SOGo
-groupware could result in impersonation attacks.</p>
-  ") (date nil "2021-12-22"))) ("DSA-5028 spip - security update" "<p>It was discovered that SPIP, a website engine for publishing, would
-allow a malicious user to perform cross-site scripting and SQL
-injection attacks, or execute arbitrary code.</p>" "https://www.debian.org/security/2021/dsa-5028" (25026 27264) old 8 nil nil ((guid nil nil) (title nil "DSA-5028 spip - security update") (link nil "https://www.debian.org/security/2021/dsa-5028") (description nil "
+  ") (date nil "2023-01-14T07:37:42+00:00") (items nil (Seq nil (li ((resource . "https://www.debian.org/security/2023/dsa-5319"))) (li ((resource . "https://www.debian.org/security/2023/dsa-5318"))) (li ((resource . "https://www.debian.org/security/2023/dsa-5317"))) (li ((resource . "https://www.debian.org/security/2023/dsa-5316"))) (li ((resource . "https://www.debian.org/security/2023/dsa-5315"))) (li ((resource . "https://www.debian.org/security/2023/dsa-5314"))) (li ((resource . "https://www.debian.org/security/2023/dsa-5313"))) (li ((resource . "https://www.debian.org/security/2023/dsa-5312"))) (li ((resource . "https://www.debian.org/security/2023/dsa-5311"))) (li ((resource . "https://www.debian.org/security/2022/dsa-5310"))) (li ((resource . "https://www.debian.org/security/2022/dsa-5309"))) (li ((resource . "https://www.debian.org/security/2022/dsa-5308"))) (li ((resource . "https://www.debian.org/security/2022/dsa-5307"))) (li ((resource . "https://www.debian.org/security/2022/dsa-5306"))) (li ((resource . "https://www.debian.org/security/2022/dsa-5305"))) (li ((resource . "https://www.debian.org/security/2022/dsa-5304"))) (li ((resource . "https://www.debian.org/security/2022/dsa-5303"))) (li ((resource . "https://www.debian.org/security/2022/dsa-5302"))))))) ("DSA-5319 openvswitch - security update" "<p>Two vulnerabilities were discovered in the LLPD implementation of Open
+vSwitch, software-based Ethernet virtual switch, which could result in
+denial of service.</p>" "https://www.debian.org/security/2023/dsa-5319" (25536 40704) old 15 nil nil ((guid nil nil) (title nil "DSA-5319 openvswitch - security update") (link nil "https://www.debian.org/security/2023/dsa-5319") (description nil "
+<p>Two vulnerabilities were discovered in the LLPD implementation of Open
+vSwitch, software-based Ethernet virtual switch, which could result in
+denial of service.</p>
+  ") (date nil "2023-01-13"))) ("DSA-5318 lava - security update" "<p>Igor Ponomarev discovered that LAVA, a continuous integration system for
+deploying operating systems onto physical and virtual hardware for
+running tests, was suspectible to denial of service via recursive XML
+entity expansion.</p>" "https://www.debian.org/security/2023/dsa-5318" (25536 40704) old 16 nil nil ((guid nil nil) (title nil "DSA-5318 lava - security update") (link nil "https://www.debian.org/security/2023/dsa-5318") (description nil "
+<p>Igor Ponomarev discovered that LAVA, a continuous integration system for
+deploying operating systems onto physical and virtual hardware for
+running tests, was suspectible to denial of service via recursive XML
+entity expansion.</p>
+  ") (date nil "2023-01-13"))) ("DSA-5317 chromium - security update" "<p>Multiple security issues were discovered in Chromium, which could result
+in the execution of arbitrary code, denial of service or information
+disclosure.</p>" "https://www.debian.org/security/2023/dsa-5317" (25536 40704) old 17 nil nil ((guid nil nil) (title nil "DSA-5317 chromium - security update") (link nil "https://www.debian.org/security/2023/dsa-5317") (description nil "
+<p>Multiple security issues were discovered in Chromium, which could result
+in the execution of arbitrary code, denial of service or information
+disclosure.</p>
+  ") (date nil "2023-01-13"))) ("DSA-5316 netty - security update" "<p>Several out-of-memory, stack overflow or HTTP request smuggling vulnerabilities
+have been discovered in Netty, a Java NIO client/server socket framework, which
+may allow attackers to cause a denial of service or bypass restrictions when
+used as a proxy.</p>" "https://www.debian.org/security/2023/dsa-5316" (25533 64512) old 18 nil nil ((guid nil nil) (title nil "DSA-5316 netty - security update") (link nil "https://www.debian.org/security/2023/dsa-5316") (description nil "
+<p>Several out-of-memory, stack overflow or HTTP request smuggling vulnerabilities
+have been discovered in Netty, a Java NIO client/server socket framework, which
+may allow attackers to cause a denial of service or bypass restrictions when
+used as a proxy.</p>
+  ") (date nil "2023-01-11"))) ("DSA-5315 libxstream-java - security update" "<p>XStream serializes Java objects to XML and back again. Versions prior to
+1.4.15-3+deb11u2 may allow a remote attacker to terminate the application with
+a stack overflow error, resulting in a denial of service only via manipulation
+of the processed input stream. The attack uses the hash code implementation for
+collections and maps to force recursive hash calculation causing a stack
+overflow. This update handles the stack overflow and raises an
+InputManipulationException instead.</p>" "https://www.debian.org/security/2023/dsa-5315" (25533 64512) old 19 nil nil ((guid nil nil) (title nil "DSA-5315 libxstream-java - security update") (link nil "https://www.debian.org/security/2023/dsa-5315") (description nil "
+<p>XStream serializes Java objects to XML and back again. Versions prior to
+1.4.15-3+deb11u2 may allow a remote attacker to terminate the application with
+a stack overflow error, resulting in a denial of service only via manipulation
+of the processed input stream. The attack uses the hash code implementation for
+collections and maps to force recursive hash calculation causing a stack
+overflow. This update handles the stack overflow and raises an
+InputManipulationException instead.</p>
+  ") (date nil "2023-01-11"))) ("DSA-5314 emacs - security update" "<p>It was discovered that missing input sanitising in the ctags functionality
+of Emacs may result in the execution of arbitrary shell commands.</p>" "https://www.debian.org/security/2023/dsa-5314" (25533 64512) old 20 nil nil ((guid nil nil) (title nil "DSA-5314 emacs - security update") (link nil "https://www.debian.org/security/2023/dsa-5314") (description nil "
+<p>It was discovered that missing input sanitising in the ctags functionality
+of Emacs may result in the execution of arbitrary shell commands.</p>
+  ") (date nil "2023-01-11"))) ("DSA-5313 hsqldb - security update" "<p>It was found that those using java.sql.Statement or java.sql.PreparedStatement
+in hsqldb, a Java SQL database, to process untrusted input may be vulnerable to
+a remote code execution attack. By default it is allowed to call any static
+method of any Java class in the classpath resulting in code execution. The
+issue can be prevented by updating to 2.5.1-1+deb11u1 or by setting the system
+property <q>hsqldb.method_class_names</q> to classes which are allowed to be called.
+For example, System.setProperty(\"hsqldb.method_class_names\",\"abc\") or Java
+argument -Dhsqldb.method_class_names=\"abc\" can be used. From version
+2.5.1-1+deb11u1 all classes by default are not accessible except those in
+java.lang.Math and need to be manually enabled.</p>" "https://www.debian.org/security/2023/dsa-5313" (25533 64512) old 21 nil nil ((guid nil nil) (title nil "DSA-5313 hsqldb - security update") (link nil "https://www.debian.org/security/2023/dsa-5313") (description nil "
+<p>It was found that those using java.sql.Statement or java.sql.PreparedStatement
+in hsqldb, a Java SQL database, to process untrusted input may be vulnerable to
+a remote code execution attack. By default it is allowed to call any static
+method of any Java class in the classpath resulting in code execution. The
+issue can be prevented by updating to 2.5.1-1+deb11u1 or by setting the system
+property <q>hsqldb.method_class_names</q> to classes which are allowed to be called.
+For example, System.setProperty(\"hsqldb.method_class_names\",\"abc\") or Java
+argument -Dhsqldb.method_class_names=\"abc\" can be used. From version
+2.5.1-1+deb11u1 all classes by default are not accessible except those in
+java.lang.Math and need to be manually enabled.</p>
+  ") (date nil "2023-01-11"))) ("DSA-5312 libjettison-java - security update" "<p>Several flaws have been discovered in libjettison-java, a collection of StAX
+parsers and writers for JSON. Specially crafted user input may cause a denial
+of service via out-of-memory or stack overflow errors.</p>" "https://www.debian.org/security/2023/dsa-5312" (25533 64512) old 22 nil nil ((guid nil nil) (title nil "DSA-5312 libjettison-java - security update") (link nil "https://www.debian.org/security/2023/dsa-5312") (description nil "
+<p>Several flaws have been discovered in libjettison-java, a collection of StAX
+parsers and writers for JSON. Specially crafted user input may cause a denial
+of service via out-of-memory or stack overflow errors.</p>
+  ") (date nil "2023-01-11"))) ("DSA-5311 trafficserver - security update" "<p>Several vulnerabilities were discovered in Apache Traffic Server, a
+reverse and forward proxy server, which could result in HTTP request
+smuggling, cache poisoning or denial of service.</p>" "https://www.debian.org/security/2023/dsa-5311" (25530 1920) old 23 nil nil ((guid nil nil) (title nil "DSA-5311 trafficserver - security update") (link nil "https://www.debian.org/security/2023/dsa-5311") (description nil "
+<p>Several vulnerabilities were discovered in Apache Traffic Server, a
+reverse and forward proxy server, which could result in HTTP request
+smuggling, cache poisoning or denial of service.</p>
+  ") (date nil "2023-01-08"))) ("DSA-5310 ruby-image-processing - security update" "<p>It was discovered that ruby-image-processing, a ruby package that
+provides higher-level image processing helpers, is prone to a remote
+shell execution vulnerability when using the #apply method to apply a
+series of operations coming from unsanitized user input.</p>" "https://www.debian.org/security/2022/dsa-5310" (25519 31616) old 24 nil nil ((guid nil nil) (title nil "DSA-5310 ruby-image-processing - security update") (link nil "https://www.debian.org/security/2022/dsa-5310") (description nil "
+<p>It was discovered that ruby-image-processing, a ruby package that
+provides higher-level image processing helpers, is prone to a remote
+shell execution vulnerability when using the #apply method to apply a
+series of operations coming from unsanitized user input.</p>
+  ") (date nil "2022-12-31"))) ("DSA-5309 wpewebkit - security update" "<p>The following vulnerabilities have been discovered in the WPE WebKit
+web engine:</p>" "https://www.debian.org/security/2022/dsa-5309" (25519 31616) old 25 nil nil ((guid nil nil) (title nil "DSA-5309 wpewebkit - security update") (link nil "https://www.debian.org/security/2022/dsa-5309") (description nil "
+<p>The following vulnerabilities have been discovered in the WPE WebKit
+web engine:</p>
+  ") (date nil "2022-12-31"))) ("DSA-5308 webkit2gtk - security update" "<p>The following vulnerabilities have been discovered in the WebKitGTK
+web engine:</p>" "https://www.debian.org/security/2022/dsa-5308" (25519 31616) old 26 nil nil ((guid nil nil) (title nil "DSA-5308 webkit2gtk - security update") (link nil "https://www.debian.org/security/2022/dsa-5308") (description nil "
+<p>The following vulnerabilities have been discovered in the WebKitGTK
+web engine:</p>
+  ") (date nil "2022-12-31"))) ("DSA-5320 tor - security update" "<p>A logic error was discovered in the implementation of the <q>SafeSocks</q>
+option of Tor, a connection-based low-latency anonymous communication
+system, which did result in allowing unsafe SOCKS4 traffic to pass.</p>" "https://www.debian.org/security/2023/dsa-5320" (25540 37760) old 14 nil nil ((guid nil nil) (title nil "DSA-5320 tor - security update") (link nil "https://www.debian.org/security/2023/dsa-5320") (description nil "
+<p>A logic error was discovered in the implementation of the <q>SafeSocks</q>
+option of Tor, a connection-based low-latency anonymous communication
+system, which did result in allowing unsafe SOCKS4 traffic to pass.</p>
+  ") (date nil "2023-01-16"))) ("DSA-5323 libitext5-java - security update" "<p>It was discovered that the CompareTool of iText, a Java PDF library which uses
+the external ghostscript software to compare PDFs at a pixel level, allowed
+command injection when parsing a specially crafted filename.</p>" "https://www.debian.org/security/2023/dsa-5323" (25544 34816) old 11 nil nil ((guid nil nil) (title nil "DSA-5323 libitext5-java - security update") (link nil "https://www.debian.org/security/2023/dsa-5323") (description nil "
+<p>It was discovered that the CompareTool of iText, a Java PDF library which uses
+the external ghostscript software to compare PDFs at a pixel level, allowed
+command injection when parsing a specially crafted filename.</p>
+  ") (date nil "2023-01-19"))) ("DSA-5322 firefox-esr - security update" "<p>Multiple security issues have been found in the Mozilla Firefox web
+browser, which could potentially result in the execution of arbitrary
+code, information disclosure or spoofing.</p>" "https://www.debian.org/security/2023/dsa-5322" (25543 13952) old 12 nil nil ((guid nil nil) (title nil "DSA-5322 firefox-esr - security update") (link nil "https://www.debian.org/security/2023/dsa-5322") (description nil "
+<p>Multiple security issues have been found in the Mozilla Firefox web
+browser, which could potentially result in the execution of arbitrary
+code, information disclosure or spoofing.</p>
+  ") (date nil "2023-01-18"))) ("DSA-5321 sudo - security update" "<p>Matthieu Barjole and Victor Cutillas discovered that sudoedit in sudo, a
+program designed to provide limited super user privileges to specific
+users, does not properly handle '--' to separate the editor and
+arguments from files to edit. A local user permitted to edit certain
+files can take advantage of this flaw to edit a file not permitted by
+the security policy, resulting in privilege escalation.</p>" "https://www.debian.org/security/2023/dsa-5321" (25543 13952) old 13 nil nil ((guid nil nil) (title nil "DSA-5321 sudo - security update") (link nil "https://www.debian.org/security/2023/dsa-5321") (description nil "
+<p>Matthieu Barjole and Victor Cutillas discovered that sudoedit in sudo, a
+program designed to provide limited super user privileges to specific
+users, does not properly handle '--' to separate the editor and
+arguments from files to edit. A local user permitted to edit certain
+files can take advantage of this flaw to edit a file not permitted by
+the security policy, resulting in privilege escalation.</p>
+  ") (date nil "2023-01-18"))) ("DSA-5324 linux - security update" "<p>Several vulnerabilities have been discovered in the Linux kernel that
+may lead to a privilege escalation, denial of service or information
+leaks.</p>" "https://www.debian.org/security/2023/dsa-5324" (25549 52736) old 10 nil nil ((guid nil nil) (title nil "DSA-5324 linux - security update") (link nil "https://www.debian.org/security/2023/dsa-5324") (description nil "
+<p>Several vulnerabilities have been discovered in the Linux kernel that
+may lead to a privilege escalation, denial of service or information
+leaks.</p>
+  ") (date nil "2023-01-23"))) ("DSA-5330 curl - security update" "<p>Two vulnerabilities were discovered in Curl, an easy-to-use client-side
+URL transfer library, which could result in denial of service or
+information disclosure.</p>" "https://www.debian.org/security/2023/dsa-5330" (25555 5120) old 4 nil nil ((guid nil nil) (title nil "DSA-5330 curl - security update") (link nil "https://www.debian.org/security/2023/dsa-5330") (description nil "
+<p>Two vulnerabilities were discovered in Curl, an easy-to-use client-side
+URL transfer library, which could result in denial of service or
+information disclosure.</p>
+  ") (date nil "2023-01-27"))) ("DSA-5329 bind9 - security update" "<p>Several vulnerabilities were discovered in BIND, a DNS server
+implementation, which may result in denial of service against named.</p>" "https://www.debian.org/security/2023/dsa-5329" (25553 49792) old 5 nil nil ((guid nil nil) (title nil "DSA-5329 bind9 - security update") (link nil "https://www.debian.org/security/2023/dsa-5329") (description nil "
+<p>Several vulnerabilities were discovered in BIND, a DNS server
+implementation, which may result in denial of service against named.</p>
+  ") (date nil "2023-01-26"))) ("DSA-5328 chromium - security update" "<p>Multiple security issues were discovered in Chromium, which could result
+in the execution of arbitrary code, denial of service or information
+disclosure.</p>" "https://www.debian.org/security/2023/dsa-5328" (25553 49792) old 6 nil nil ((guid nil nil) (title nil "DSA-5328 chromium - security update") (link nil "https://www.debian.org/security/2023/dsa-5328") (description nil "
+<p>Multiple security issues were discovered in Chromium, which could result
+in the execution of arbitrary code, denial of service or information
+disclosure.</p>
+  ") (date nil "2023-01-26"))) ("DSA-5327 swift - security update" "<p>Sebastien Meriot discovered that the S3 API of Swift, a distributed
+virtual object store, was susceptible to information disclosure.</p>" "https://www.debian.org/security/2023/dsa-5327" (25551 8064) old 7 nil nil ((guid nil nil) (title nil "DSA-5327 swift - security update") (link nil "https://www.debian.org/security/2023/dsa-5327") (description nil "
+<p>Sebastien Meriot discovered that the S3 API of Swift, a distributed
+virtual object store, was susceptible to information disclosure.</p>
+  ") (date nil "2023-01-24"))) ("DSA-5326 nodejs - security update" "<p>Multiple vulnerabilities were discovered in Node.js, which could result
+in HTTP request smuggling, bypass of host IP address validation and weak
+randomness setup.</p>" "https://www.debian.org/security/2023/dsa-5326" (25551 8064) old 8 nil nil ((guid nil nil) (title nil "DSA-5326 nodejs - security update") (link nil "https://www.debian.org/security/2023/dsa-5326") (description nil "
+<p>Multiple vulnerabilities were discovered in Node.js, which could result
+in HTTP request smuggling, bypass of host IP address validation and weak
+randomness setup.</p>
+  ") (date nil "2023-01-24"))) ("DSA-5325 spip - security update" "<p>It was discovered that SPIP, a website engine for publishing, would
+allow a malicious user to SQL injection attacks, or bypass
+authorization access.</p>" "https://www.debian.org/security/2023/dsa-5325" (25551 8064) old 9 nil nil ((guid nil nil) (title nil "DSA-5325 spip - security update") (link nil "https://www.debian.org/security/2023/dsa-5325") (description nil "
 <p>It was discovered that SPIP, a website engine for publishing, would
-allow a malicious user to perform cross-site scripting and SQL
-injection attacks, or execute arbitrary code.</p>
-  ") (date nil "2021-12-22"))) ("DSA-5031 wpewebkit - security update" "<p>The following vulnerabilities have been discovered in the wpewebkit
-web engine:</p>" "https://www.debian.org/security/2021/dsa-5031" (25027 48128) old 5 nil nil ((guid nil nil) (title nil "DSA-5031 wpewebkit - security update") (link nil "https://www.debian.org/security/2021/dsa-5031") (description nil "
-<p>The following vulnerabilities have been discovered in the wpewebkit
-web engine:</p>
-  ") (date nil "2021-12-23"))) ("DSA-5030 webkit2gtk - security update" "<p>The following vulnerabilities have been discovered in the webkit2gtk
-web engine:</p>" "https://www.debian.org/security/2021/dsa-5030" (25027 48128) old 6 nil nil ((guid nil nil) (title nil "DSA-5030 webkit2gtk - security update") (link nil "https://www.debian.org/security/2021/dsa-5030") (description nil "
-<p>The following vulnerabilities have been discovered in the webkit2gtk
-web engine:</p>
-  ") (date nil "2021-12-23"))) ("DSA-5035 apache2 - security update" "<p>Two vulnerabilities have been discovered in the Apache HTTP server:</p>" "https://www.debian.org/security/2022/dsa-5035" (25043 36352) new 1 nil nil ((guid nil nil) (title nil "DSA-5035 apache2 - security update") (link nil "https://www.debian.org/security/2022/dsa-5035") (description nil "
-<p>Two vulnerabilities have been discovered in the Apache HTTP server:</p>
-  ") (date nil "2022-01-04"))) ("DSA-5034 thunderbird - security update" "<p>Multiple security issues were discovered in Thunderbird, which could
-result in the execution of arbitrary code, spoofing, information disclosure,
-downgrade attacks on SMTP STARTTLS connections or misleading display of
-OpenPGP/MIME signatures.</p>" "https://www.debian.org/security/2022/dsa-5034" (25040 60160) new 2 nil nil ((guid nil nil) (title nil "DSA-5034 thunderbird - security update") (link nil "https://www.debian.org/security/2022/dsa-5034") (description nil "
-<p>Multiple security issues were discovered in Thunderbird, which could
-result in the execution of arbitrary code, spoofing, information disclosure,
-downgrade attacks on SMTP STARTTLS connections or misleading display of
-OpenPGP/MIME signatures.</p>
-  ") (date nil "2022-01-02"))) ("DSA-5033 fort-validator - security update" "<p>Multiple vulnerabilities were discovered in the FORT RPKI validator, which
-could result in denial of service or path traversal.</p>" "https://www.debian.org/security/2021/dsa-5033" (25036 63104) new 3 nil nil ((guid nil nil) (title nil "DSA-5033 fort-validator - security update") (link nil "https://www.debian.org/security/2021/dsa-5033") (description nil "
-<p>Multiple vulnerabilities were discovered in the FORT RPKI validator, which
-could result in denial of service or path traversal.</p>
-  ") (date nil "2021-12-30"))) ("DSA-5032 djvulibre - security update" "<p>Several vulnerabilities were discovered in djvulibre, a library and
-set of tools to handle documents in the DjVu format. An attacker could
-crash document viewers and possibly execute arbitrary code through
-crafted DjVu files.</p>" "https://www.debian.org/security/2021/dsa-5032" (25034 21376) new 4 nil nil ((guid nil nil) (title nil "DSA-5032 djvulibre - security update") (link nil "https://www.debian.org/security/2021/dsa-5032") (description nil "
-<p>Several vulnerabilities were discovered in djvulibre, a library and
-set of tools to handle documents in the DjVu format. An attacker could
-crash document viewers and possibly execute arbitrary code through
-crafted DjVu files.</p>
-  ") (date nil "2021-12-28"))))
+allow a malicious user to SQL injection attacks, or bypass
+authorization access.</p>
+  ") (date nil "2023-01-24"))) ("DSA-5333 tiff - security update" "<p>Several buffer overflow, divide by zero or out of bounds read/write
+vulnerabilities were discovered in tiff, the Tag Image File Format (TIFF)
+library and tools, which may cause denial of service when processing a
+crafted TIFF image.</p>" "https://www.debian.org/security/2023/dsa-5333" (25557 46848) old 2 nil nil ((guid nil nil) (title nil "DSA-5333 tiff - security update") (link nil "https://www.debian.org/security/2023/dsa-5333") (description nil "
+<p>Several buffer overflow, divide by zero or out of bounds read/write
+vulnerabilities were discovered in tiff, the Tag Image File Format (TIFF)
+library and tools, which may cause denial of service when processing a
+crafted TIFF image.</p>
+  ") (date nil "2023-01-29"))) ("DSA-5331 openjdk-11 - security update" "<p>Several vulnerabilities have been discovered in the OpenJDK Java runtime,
+which may result in denial of service or spoofing.</p>" "https://www.debian.org/security/2023/dsa-5331" (25556 25984) old 3 nil nil ((guid nil nil) (title nil "DSA-5331 openjdk-11 - security update") (link nil "https://www.debian.org/security/2023/dsa-5331") (description nil "
+<p>Several vulnerabilities have been discovered in the OpenJDK Java runtime,
+which may result in denial of service or spoofing.</p>
+  ") (date nil "2023-01-28"))) ("DSA-5334 varnish - security update" "<p>Martin van Kervel Smedshammer discovered that varnish, a state of the
+art, high-performance web accelerator, is prone to a HTTP/2 request
+forgery vulnerability.</p>" "https://www.debian.org/security/2023/dsa-5334" (25557 46848) old 1 nil nil ((guid nil nil) (title nil "DSA-5334 varnish - security update") (link nil "https://www.debian.org/security/2023/dsa-5334") (description nil "
+<p>Martin van Kervel Smedshammer discovered that varnish, a state of the
+art, high-performance web accelerator, is prone to a HTTP/2 request
+forgery vulnerability.</p>
+  ") (date nil "2023-01-29"))))

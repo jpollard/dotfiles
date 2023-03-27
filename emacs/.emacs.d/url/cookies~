@@ -2,29 +2,35 @@
 ;; Automatically generated file!!! DO NOT EDIT!!!
 
 (setq url-cookie-storage
- '(("www.vice.com"
-  [url-cookie "X-Vice-Split-Testing" "(null)" "Sun, 23 Jan 2022 20:51:50 GMT" "/" "www.vice.com" nil])
- ("www.wired.com"
-  [url-cookie "verso_bucket" "253" "Sat, 24 Dec 2022 20:51:50 GMT" "/" "www.wired.com" nil]))
+ '(("www.wired.com"
+  [url-cookie "verso_bucket" "253" "Tue, 26 Mar 2024 15:53:23 GMT" "/" "www.wired.com" nil])
+ (".stackoverflow.com"
+  [url-cookie "prov" "a321e6a3-c1d0-7a03-3b8a-eeef14c2a356" "Fri, 01-Jan-2055 00:00:00 GMT" "/" ".stackoverflow.com" nil])
+ (".frame.work"
+  [url-cookie "anonymous_id" "832b7ad3cc574718aa79e5cba30924ed" "Tue, 22 Jul 2042 02:43:26 GMT" "/" ".frame.work" nil])
+ ("www.vice.com"
+  [url-cookie "X-Vice-Split-Testing" "2020-10-19a:B" "Wed, 26 Apr 2023 16:53:24 GMT" "/" "www.vice.com" nil]))
 )
 (setq url-cookie-secure-storage
- '((".dispatch.com"
-  [url-cookie "gnt_eid" "control:9:out-market" "Thu Jan 13 19:32:51 2022 GMT" "/" ".dispatch.com" t])
- ("wired.com"
-  [url-cookie "CN_xid_refresh" "0795101e-b268-4acc-8d5d-94645545141d" "Thu, 23 Jan 2031 07:20:23 GMT" "/" "wired.com" t]
-  [url-cookie "CN_geo_country_code" "US" "Thu, 26 May 2022 05:03:45 GMT" "/" "wired.com" t])
- (".wired.com"
-  [url-cookie "CN_xid" "0795101e-b268-4acc-8d5d-94645545141d" "Wed, 22 Jun 2022 20:51:50 GMT" "/" ".wired.com" t]
-  [url-cookie "CN_xid_refresh" "0795101e-b268-4acc-8d5d-94645545141d" "Mon, 22 Dec 2031 20:51:50 GMT" "/" ".wired.com" t])
- ("reddit.com"
-  [url-cookie "loid" "0000000000dbqftot3.2.1626378851333.Z0FBQUFBQmc4SkpqV29KWEU3RjVTZDJPdjU3Z2xpMW94cTJyWDljVDhjZ1B4SjduVnpzMHdpZ3hwXy1wSUJnNTlzN01PX01QM1E0TmFyVU14Ylp6MERPSElfTTBjTUpMU1BUdnp3V0RlYXF1dlVKeU1zVXNDYWhPMVh4bF9sZTRLczlGVDJCNjEtVGM" "Sat Jul 15 19:54:10 2023 GMT" "/" "reddit.com" t]
-  [url-cookie "edgebucket" "jz7pznD92hCFi5TvyA" "Sat Jul 15 19:54:10 2023 GMT" "/" "reddit.com" t])
- (".reddit.com"
-  [url-cookie "csv" "1" "Sat Jul 15 19:54:11 2023 GMT" "/" ".reddit.com" t])
+ '(("www.wired.com"
+  [url-cookie "CN_xid_refresh" "0795101e-b268-4acc-8d5d-94645545141d" "Fri, 13 Dec 2030 06:23:15 GMT" "/" "www.wired.com" t])
  ("www.zidisha.org"
   [url-cookie "zidishaCookie" "eyJpdiI6IndqQzJlN0dYMCtBZnJVbFpmN3dIOXc9PSIsInZhbHVlIjoiYWVHaE4wOFVWS01Qd09qN0dUSDNVU3p2M3pyOEVwRmZ3amhSY2QxVHFjeG1uOHkyUTZTT1V5elovUFZMakdIaCIsIm1hYyI6IjEwZDIzMWIyMWU2YjlkMWM2NzEwYjNkODg1N2E5MTU2ZWY5ZTk1NzExYjMyYzdmOThmMDVkNTUwYzY3YWNlZGYifQ%3D%3D" "Tue Jul 14 20:39:43 2026 GMT" "/" "www.zidisha.org" t])
- ("www.wired.com"
-  [url-cookie "CN_xid_refresh" "0795101e-b268-4acc-8d5d-94645545141d" "Fri, 13 Dec 2030 06:23:15 GMT" "/" "www.wired.com" t]))
+ (".reddit.com"
+  [url-cookie "csv" "2" "Sun Jul 21 03:13:57 2024 GMT" "/" ".reddit.com" t]
+  [url-cookie "loid" "0000000000dbqftot3.2.1626378851333.Z0FBQUFBQmc4SkpqV29KWEU3RjVTZDJPdjU3Z2xpMW94cTJyWDljVDhjZ1B4SjduVnpzMHdpZ3hwXy1wSUJnNTlzN01PX01QM1E0TmFyVU14Ylp6MERPSElfTTBjTUpMU1BUdnp3V0RlYXF1dlVKeU1zVXNDYWhPMVh4bF9sZTRLczlGVDJCNjEtVGM" "Sun Jul 21 03:13:57 2024 GMT" "/" ".reddit.com" t])
+ ("reddit.com"
+  [url-cookie "edgebucket" "jz7pznD92hCFi5TvyA" "Sat Jul 15 19:54:10 2023 GMT" "/" "reddit.com" t]
+  [url-cookie "loid" "0000000000dbqftot3.2.1626378851333.Z0FBQUFBQmc4SkpqV29KWEU3RjVTZDJPdjU3Z2xpMW94cTJyWDljVDhjZ1B4SjduVnpzMHdpZ3hwXy1wSUJnNTlzN01PX01QM1E0TmFyVU14Ylp6MERPSElfTTBjTUpMU1BUdnp3V0RlYXF1dlVKeU1zVXNDYWhPMVh4bF9sZTRLczlGVDJCNjEtVGM" "Sat Jul 15 19:54:10 2023 GMT" "/" "reddit.com" t]
+  [url-cookie "token_v2" "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2NTg1NDU5MTUsInN1YiI6Ii1DLW9JeS1rY1QwUFJkUlMwTEwyNVZzRkt4U1FRekEiLCJsb2dnZWRJbiI6ZmFsc2UsInNjb3BlcyI6WyIqIiwiZW1haWwiLCJwaWkiXX0.28_wBA2Dlhu13iiWPsGr76mw1BsKp1bobAeMf2Fsfls" "Mon, 22 Jul 2024 03:13:55 GMT" "/" "reddit.com" t])
+ (".wired.com"
+  [url-cookie "CN_xid_refresh" "0795101e-b268-4acc-8d5d-94645545141d" "Tue, 26 Mar 2024 15:53:23 GMT" "/" ".wired.com" t]
+  [url-cookie "CN_xid" "0795101e-b268-4acc-8d5d-94645545141d" "Sat, 23 Sep 2023 15:53:23 GMT" "/" ".wired.com" t])
+ ("frame.work"
+  [url-cookie "guest_token" "eyJfcmFpbHMiOnsibWVzc2FnZSI6IkltdHJVMVV0Y1dKTGFVcG5abWd0VUZWSFpETlBWbEVpIiwiZXhwIjpudWxsLCJwdXIiOiJjb29raWUuZ3Vlc3RfdG9rZW4ifX0%3D--8f61409929b337931a214d63ab104031e9a4a945" "Tue, 22 Jul 2042 02:51:31 GMT" "/" "frame.work" t])
+ ("wired.com"
+  [url-cookie "CN_geo_country_code" "US" "Wed, 14 Jun 2023 07:32:52 GMT" "/" "wired.com" t]
+  [url-cookie "CN_xid_refresh" "0795101e-b268-4acc-8d5d-94645545141d" "Thu, 23 Jan 2031 07:20:23 GMT" "/" "wired.com" t]))
 )
 
 ;; Local Variables:

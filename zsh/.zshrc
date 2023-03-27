@@ -1,11 +1,12 @@
 # Path to your oh-my-zsh installation.
-  export ZSH=/home/snowman/.oh-my-zsh
+export GCM_CREDENTIAL_STORE=secretservice
+export ZSH=$HOME/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="robbyrussell"
+ZSH_THEME="nanotech"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -49,18 +50,19 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(node npm git)
+plugins=(node npm git systemadmin python battery)
 
 # User configuration
 
-export PATH="/home/snowman/.rvm/gems/ruby-2.2.1/bin:/home/snowman/.rvm/gems/ruby-2.2.1@global/bin:/home/snowman/.rvm/rubies/ruby-2.2.1/bin:/home/snowman/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/home/snowman/bin:/usr/local/java/jre1.8.0_51/bin:/home/snowman/bin:/usr/local/java/jre1.8.0_51/bin:/home/snowman/.rvm/bin:/home/snowman/.rvm/bin:/home/snowman/bin:/usr/local/java/jre1.8.0_51/bin:/home/snowman/bin:/usr/local/java/jre1.8.0_51/bin:/home/snowman/.rvm/bin:/home/snowman/.rvm/bin:/home/snowman/.rvm/bin:/home/jwp/Android/Sdk/platform-tools:/home/jwp/Projects/flutter/bin:$PATH"
+export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/home/jwp/bin:/home/jwp/Android/Sdk/platform-tools:$PATH"
 # export MANPATH="/usr/local/man:$MANPATH"
+export PATH="$PATH:/home/jwp/.dotnet/tools"
 
 source $ZSH/oh-my-zsh.sh
 
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
-
+export EDITOR='vim'
 # Preferred editor for local and remote sessions
 # if [[ -n $SSH_CONNECTION ]]; then
 #   export EDITOR='vim'
@@ -87,6 +89,3 @@ source $ZSH/oh-my-zsh.sh
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
-
-
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting

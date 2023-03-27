@@ -1,79 +1,128 @@
+python day4a.py
+python day4a.py
+python ./day4a.py 
+python ./day4b.py 
+python ./day4b.py 
+python ./day4b.py 
+python ./day4b.py 
+python ./day4b.py 
+python ./day4b.py 
+python ./day4b.py 
+python ./day4b.py 
+python ./day4b.py 
+python ./day4b.py 
+python ./day4b.py 
+python ./day4b.py 
+pdflatex ./WeeklyTasks.latex 
+pdflatex ./WeeklyTasks.latex 
+pdflatex ./WeeklyTasks.latex 
+touch FridayTasks.latex
+touch SaturdayTasks.latex
+pdflatex ./WeeklyTasks.latex 
+pdflatex ./WeeklyTasks.latex 
+pdflatex ./WeeklyTasks.latex 
+pdflatex ./WeeklyTasks.latex 
+pdflatex ./WeeklyTasks.latex 
+pdflatex ./WeeklyTasks.latex 
+yum
+yum install texlive-collection-fontsrecommended
+sudo yum install texlive-collection-fontsrecommended
+pdflatex ./WeeklyTasks.latex 
+pdflatex ./WeeklyTasks.latex 
+pdflatex ./WeeklyTasks.latex 
+pdflatex ./WeeklyTasks.latex 
+pdflatex ./WeeklyTasks.latex 
+pdflatex ./WeeklyTasks.latex 
+pdflatex ./WeeklyTasks.latex 
+pdflatex ./WeeklyTasks.latex 
+pdflatex ./WeeklyTasks.latex 
+pdflatex ./WeeklyTasks.latex 
+pdflatex ./WeeklyTasks.latex 
+pdflatex ./WeeklyTasks.latex 
+pdflatex ./WeeklyTasks.latex 
+python ./day3a.py 
+cd Documents/org/
+ls
+cd journal/
+ls
+cd 2022/
+ls
+v lJournal.org 
+cat lJournal.org 
+cd ..
 cd ..
 ls
-rake
+cd agenda/
 ls
-vi Rakefile 
-vi Rakefile 
-rake
-top
-top
-ansible-playbook -K ./workstation.yaml 
-ansible-playbook -K ./workstation.yaml
-ansible-playbook -K ./workstation.yaml 
-ansible-playbook -K ./workstation.yaml 
-ansible-playbook -K ./workstation.yaml 
-yakyak
-sudo apt install twittering-mode
-7Progress: [ 80%] [##############################################............] 8
-exit
-joplin
-exit
-syncthing&
+mkdir 2023
+ls 2022
+touch 2023/lAgenda.org
+touch 2023/wAgenda.org
+touch 2023/music.org
+ls
+touch ../../2023.ledger
+ls
+rm 2021.ledger\~
+cd 2022/
+ls
+cd ..
+cd ..
+ls
+cd cal
+ls
+mv 2022/lCal.org ./
+ls
+mv 2022/wCal.org ./
+ls
+cd 2022/
+ls
+cd ..
+ssh jwp@mini.local
 clear
-ls
-nvm use 0.10
-zsh
-ls
-nvm use 0.10
-zsh
-tmux
-screen
-zsh
-cd
-cd Documents
-wget  http://www.neilvandyke.org/sicp-texi
-makeinfo -–no-split sicp.texi -o sicp.info
-makeinfo
-apt search makeinfo
-tmux
-scrcpy
-tail -f /var/log
-tail -f /var/log/syslog
-tail -f /var/log/syslog
-~use-theme~
-use-theme
-use-theme git-radar
-cd Projects
-ls
-cd Pocket-Books-Pro/
-git pull
-ls
-flutter--initialize 
-ls
-flutter initialize
-which flutter
-../flutter/bin/flutter --help
-../flutter/bin/flutter upgrade
-ls
-ls ../2020/
-cp ../2020/2021\ Daily\ Stats.xlsx ./
-cd Projects/Pocket-Books-Pro/
-git pull
-git checkout dev
-git help
-git branch
-git switch dev
-ls
-cd .git
-ls
-open config
-config
-edit config
-cd
-cd Projects/
-mkdir flasky
-cd flasky
-virtualenv ./
-term
+ss
+ssh jwp@192.168.1.104
+ip addr
+ifconfig
+ssh jwp@192.168.1.104
+dmesg
+dnf search libgpod
+sudo dnf install libgpod.x86_64
+dnf install gtkpod
+sudo dnf install gtkpod
+gtkpod
+dnf search rhythmbox
+sudo dnf install rhythmbox
+dmesg
+dmesg
+typescript
+ts
+dnf search typescript
+dnf search typescript
+node
+nodejs
+coffeescript
+dnf search coffeescript
+coffee -v
+npm
+dnf search npm
+dnf search nvm
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
+exit
+nvm
+bash
+bash
+wget https://blog.flipperzero.one/rss/
+cat index.html 
+wget https://www.vice.com/en/rss?locale=en_us
+cat rss\?locale=en_us 
+clear
+wget https://www.ineteconomics.org/feed.rss
+cat feed.rss
+wget https://stackoverflow.blog/feed.rss
+wget https://inteltechniques.com/blog/feed/
+cat index.html.1 
+wget https://www.emacswiki.org/emacs?action=rss
+cat emacs\?action=rss 
+node -v
 bash
 exit
